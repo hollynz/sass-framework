@@ -1,0 +1,26 @@
+// Add script to prefs:
+//
+// "liveSassCompile.settings.formats":[
+//         // Expanded CSS
+//         {
+//             "format": "expanded",
+//             "extensionName": ".css",
+//             "savePath": "~/../css/"
+//         },
+//         // Minified CSS
+//         {
+//             "format": "compressed",
+//             "extensionName": ".min.css",
+//             "savePath": "~/../dist/css"
+//         }
+//     ]
+
+
+
+@import "abstracts/index";
+@import "base/index";
+@import "components/index";
+@import "layout/index";
+@import "pages/index";
+@import "themes/index";
+@import "vendors/index";
